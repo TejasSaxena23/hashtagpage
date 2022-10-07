@@ -1,0 +1,270 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("leaflet/dist/leaflet.css");
+.img1{
+  margin-top: 8px;
+    cursor: pointer;
+    margin-left: -50px;
+  }
+  .nav1{
+    margin-top: 79px;
+    margin-left: -340px;
+    font-size: 20px;
+  }
+  .drop2{
+    margin-left: -80px;
+  }
+  .drop1{
+    width: 560px;
+    z-index: 1;
+    background-color: white;
+  }
+  .li1{
+    margin-left: 250px;
+    margin-top: -130px;
+  }
+  .li2{
+    margin-left: 250px;
+    margin-bottom: -60px;
+  }
+  .li3{
+    margin-left: 250px;
+    margin-top: 60px;
+  }
+  .btn1{
+    border: 2px solid orange;
+    height: 50px;
+    width: 50px;
+    font-size: small;
+  }
+  .btn2{
+    border: 2px solid white;
+    height: 50px;
+    width: 150px;
+    font-size: small;
+  }
+  .main1{
+    height: 100px;
+  }
+.content{
+  margin-top: -350px;
+  margin-left: 150px;
+}
+.content h1{
+  font-size: 60px;
+  color: white;
+  font-style: bold;
+  font-weight: 700;
+  
+}
+.content h5{
+  font-size: 20px;
+  color: white;
+  font-style: bold;
+  font-weight: 700;
+  margin-bottom: -10px;
+  margin-left: 8px;
+}
+.wave{
+  z-index: -1;
+}
+.child{
+  margin-left: 600px;
+  margin-top: -110px;
+  width: 490px;
+  font-size: 20px;
+  color: white;
+  font-style: bold;
+  font-weight: 600;
+  border-left: 2px solid white;
+  padding-left: 20px;
+}
+.map{
+  margin-top: 300px;
+  margin-left: 100px;
+  font-weight: 600;
+  font-size: 14px;
+}
+.span{
+  cursor: pointer;
+  margin-left: 350px;
+  margin-top: -28px;
+}
+.span1{
+  position: absolute;
+  margin-left: 256px;
+}
+
+.p1{
+  cursor: pointer;
+  margin-left: 92px ;
+  margin-bottom: -14px;
+}
+.map button{
+  cursor: pointer;
+}
+.info p{
+  letter-spacing: 1px;
+  margin-top: -21px;
+}
+.address{
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: 450;
+  line-height: 35px;
+}
+.a1{
+  width: 120px;
+  margin-left: 50px;
+}
+.a2{
+  width: 150px;
+  margin-left: 50px;
+}
+.a6{
+  width: 200px;
+  margin-left: 50px;
+}
+.a3{
+  letter-spacing: 2px;
+}
+.map1{
+  cursor: pointer;
+  margin-left: 750px;
+  margin-top: -350px;
+}
+.leaflet-container {
+  border-radius: 30px;
+  width: 80%;
+  height: 60vh;
+}
+.ideabox{
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+  height: 700px;
+}
+.join{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: 400px;
+}
+.foot{
+  width: 1300px;
+  margin-left: 49px;
+  border-top-left-radius: 60px;
+}
+.foot1{
+  margin-left: 49px;
+  width:1300px;
+}
+.address1{
+  font-size: 20px;
+  margin-top: -35px;
+  margin-left: 50px;
+  font-weight: 450;
+  color: white;
+}
+.a5{
+  margin-top: -20px;
+  width: 120px;
+  margin-left: 50px;
+}
+.a4{
+  margin-top: -20px;
+  width: 150px;
+  margin-left: 50px;
+}
+.btn3{
+  
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  font-size: small;
+}
+.btn4{
+ margin-left: 20px;
+  border: 2px solid transparent;
+  height: 50px;
+  width: 150px;
+  font-size: small;
+}
+.in1{
+  margin-left: -140px;
+}
+.com{
+  margin-left: -80px;
+}
+.iou{
+  font-size: 15px;
+  margin-top: 100px;
+}
+.iou2{
+  margin-top: 0px;
+  margin-left: 600px;
+}
+.iou3{
+  font-size: 15px;
+  margin-top: -66px;
+  margin-left: 600px;
+}
+.iou4{
+  font-size: 15px;
+  margin-top: 40px;
+}
+.flags{
+  width: 385px;
+  height: 40px;
+  margin-left: 600px;
+  margin-top: 0px;
+  background-color: white;
+}
+.iou5{
+  font-size: 15px;
+  margin-top: -65px;
+  margin-left: 600px;
+}
+.send{
+  margin-top: 600px;
+  margin-left: -900px;
+}
+.send p{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.arrow{
+  display: flex;
+  align-items: center;
+  margin-top: -33px;
+}
+.join1{
+  width: 500px;
+  height: 200px;
+  margin-right: -400px;
+  margin-top: 100px;
+}
+.puzzle{
+  transform: rotateX(40deg);
+}
+.t1{
+  margin-left: 25px;
+  font-size: 50px;
+}
+.send1{
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+}
+.send1 p{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.arrow1{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 50px;
+}

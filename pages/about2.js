@@ -11,7 +11,11 @@ function About() {
   }
   return (
    <>
-   <div className="map">
+   
+   <div className="mapparallel">
+   <p className="text-gray-600/60 text-sm font-bold experties">WE ARE PROFESSIONALS</p>
+        <p className="text-orange-600 font-bold text-50 text-6xl experties3">Contacts</p>
+        <div className="border-solid border-2 border-orange-600 experties4"></div>
      <p className={'p1 text-orange-500' + (active?"":"p1")}>Sunnyvale</p>
      <button onClick={handleclick}  className={'w-64 border-solid border-2 border-orange-400'  + (active ? "":"border-gray-400")}></button>
      <p className={'span' + (active? "":"text-orange-500 span")}>Kochi</p>

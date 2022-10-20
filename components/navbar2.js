@@ -130,7 +130,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-
+         <div style={{marginLeft:"900px"}}> <Image src="/iso.svg" width={420} height={620}></Image> </div>
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (

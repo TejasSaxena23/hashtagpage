@@ -1,5 +1,6 @@
 {
   "name": "hashtagpages",
+  "homepage": "https://github.com/TejasSaxena23/hashtagpage",
   "version": "0.1.0",
   "scripts": {
     "dev": "next dev",
